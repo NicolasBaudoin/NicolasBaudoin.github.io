@@ -1,0 +1,51 @@
+/* ====== VARIABLES ====== */
+:root{
+    /* logo's color */
+    --clr-mainpurple : rgb(168,0,210);
+}
+
+/* ===== GLOBAL STYLE ===== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+ul {
+    list-style:none;
+  
+}
+a{
+    text-decoration: none;
+  }
+/* =========== navbar ===============*/
+
+nav{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+   
+}
+.nav-list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+  .nav-item{
+    padding: 1em;
+}
+
+.nav-item a{
+    color: antiquewhite;
+}
+.nav-item a:hover{
+    color: var(--clr-mainpurple);
+}
+ 
+
+
+
+  
+  
+  
