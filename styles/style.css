@@ -2,6 +2,9 @@
 :root{
     /* logo's color */
     --clr-mainpurple : rgb(168,0,210);
+
+    /* BACKGROUND COLOR */
+    --clr-background : rgb(25,1,31);
 }
 
 /* ===== GLOBAL STYLE ===== */
@@ -10,6 +13,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "roboto", sans-serif;
+}
+body{
+    background: var(--clr-background);
+   
 }
 ul {
     list-style:none;
@@ -37,10 +44,10 @@ nav{
 }
 
 .nav-item a{
-    color: antiquewhite;
+    color: var(--clr-mainpurple);
 }
 .nav-item a:hover{
-    color: var(--clr-mainpurple);
+    color: antiquewhite;
 }
  
 
