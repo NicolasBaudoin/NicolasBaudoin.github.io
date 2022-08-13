@@ -64,9 +64,7 @@ nav{
     color: antiquewhite;
 }
 .nav-item a:hover{
-    padding: 0px 10px;
-    border: solid 2px white;
-   
+    color : var(--clr-mainpurple)
 }
  
 
