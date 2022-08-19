@@ -1,7 +1,12 @@
 /* ===== MOBILE MENU ===== */
 
 @media only screen and (max-width: 767px){
-    body{
+
+.navbar-container-desktop{
+    visibility: hidden;
+}
+
+body{
     margin: 0;
     padding: 0;
     background: #FFFC85
@@ -10,7 +15,7 @@
     position: fixed;
     top: 40px;
     left: 40px;
-    z-index: 2
+    z-index: 2;
 }
 .toggle a{
     text-decoration: none;
@@ -18,7 +23,7 @@
     font-size: 24px;
     cursor: pointer;
 }
-.menu{
+.menu-mobile{
     margin: 0;
     padding: 0;
     position: fixed;

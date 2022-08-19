@@ -76,6 +76,9 @@ section{
 
 @media screen and (min-width: 800px) {
     
+.menu_StyledMenu{
+    visibility: hidden;
+}
  
     
 .navbar {
