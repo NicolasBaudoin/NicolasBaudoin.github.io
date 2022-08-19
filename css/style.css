@@ -16,8 +16,8 @@
 }
 body{
     overflow: hidden;
-    background-color: white;
-    color: antiquewhite;
+    background-color: --clr-background;
+    color : antiquewhite;
     
 }
 ul {
@@ -74,16 +74,21 @@ section{
 
 /* ===== NAVBAR ===== */
 
-@media screen and (min-width: 800px) {
-    
+@media screen and (min-width: 767px) {
+    /*===== hide mobile menu for desktop =====  */
 .menu_StyledMenu{
     visibility: hidden;
 }
  
+    /*  */
+
+   
+ 
     
+
 .navbar {
-    overflow: hidden;
     background-color: #000000;
+    overflow: hidden;   
     position: fixed;
     top: 0;
     width: 100%;
@@ -91,10 +96,15 @@ section{
     justify-content: space-around;
     align-items: center;
   }
+  .navbar-links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
   
   .navbar a {
    
-    display: block;
+    display: flex;
     color: antiquewhite;
     text-align: center;
     padding: 15px 18px;
@@ -112,5 +122,13 @@ section{
     margin-top: 35px;
     height: 2000px;
   }
+
+#logo{
+    position: left;
+}
+
+section {
+    display: block
+}
 
 }
