@@ -31,7 +31,9 @@ a{
 section{
     display: flex;
     justify-content: center;
+    border: 1px solid red;
 }
+
 /* =========== navbar perso ===============*/
 
 /* nav{
