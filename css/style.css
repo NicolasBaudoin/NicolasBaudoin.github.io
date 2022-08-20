@@ -8,6 +8,7 @@
 }
 
 /* ===== GLOBAL STYLE ===== */
+
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +16,10 @@
     font-family: "roboto", sans-serif;
 }
 body{
-    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
     background-color: --clr-background;
     color : antiquewhite;
     
@@ -28,10 +32,22 @@ a{
     text-decoration: none;
   }
 
+
+  main{
+    display:flex;
+    flex-direction: column;
+    
+
+   
+    
+  
+  }
 section{
-    display: flex;
+    width: 70%;
+    
     justify-content: center;
     border: 1px solid red;
+    
 }
 
 /* =========== navbar perso ===============*/
