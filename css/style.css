@@ -4,16 +4,18 @@
     --clr-mainpurple : rgb(168,0,210);
 
     /* BACKGROUND COLOR */
-    --clr-background : rgb(25,1,31);
+    --clr-background : rgb(42, 10, 47);
+    /* navbar color */
+    --clr-navbar-back : rgb(32,32,32); /* background color navbar*/
+    --clr-font : rgb(210, 21, 197);
+    --fzgz : rgb(42, 10, 47);
 }
-
 /* ===== GLOBAL STYLE ===== */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "roboto", sans-serif;
+    font-family: "roboto", sans-serif var(--clr-font);
     scroll-behavior: smooth;
 }
 body{
@@ -22,22 +24,16 @@ body{
     width: 100%;
     min-height: 100%;
     overflow-x: hidden;
-    background-color: --clr-background;
+   
     color: antiquewhite;
-    
-    
-    
 }
 ul {
-    list-style:none;
-  
+    list-style:none; 
 }
 a{
     text-decoration: none;
   }
-
-
-  main{
+main{
     display:flex;
     flex-direction: column;
     color: antiquewhite;
@@ -46,65 +42,34 @@ a{
     width: 80%;
     left: 20%;
     z-index: -1;
-    
-    
-    
-
-   
-    
-  
-  }
+}
 section{
-    width: 70%;
-    
+    width: 70%;   
     justify-content: center;
     border: 1px solid red;
     padding: 40px;
-    
 }
-
-
-
-
 /* ===== NAVBAR ===== */
+/*===== hide mobile menu for desktop =====  */
 
-@media screen and (min-width: 767px) {
-    /*===== hide mobile menu for desktop =====  */
-.menu_StyledMenu{
-    visibility: hidden;
-}
- 
-  .lightMode{
-    border: white 1px solid;
-    padding: 40px;
-    background: antiquewhite;
-  }
-
-   
- 
-    
 
 .navbar {
-    background: #000000;
+    background: var(--clr-navbar-back);
     overflow: hidden;   
     position: fixed;
     top: 0;
     width: 100%;
     display:flex;
     justify-content: space-around;
-    align-items: center;
-    
-  }
-  .navbar-links{
+    align-items: center;   
+}
+.navbar-links{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 
-  }
-
- 
-  
-  .navbar a {
+}
+.navbar a {
    
     display: flex;
     color: antiquewhite;
@@ -112,25 +77,28 @@ section{
     padding: 15px 18px;
     text-decoration: none;
     font-size: 18px;
-        
-  }
+}
   
-  .navbar a:hover {
+.navbar a:hover {
     color: var(--clr-mainpurple);
-  }
+}
   
-  .container {
+.container {
     padding: 18px;
     margin-top: 35px;
     height: 2000px;
-  }
-
+}
 #logo{
     position: left;
 }
-
 section {
     display: block
 }
 
+@media screen and (min-width: 768px){
+    .menu_StyledMenu{
+        visibility: hidden;
+    }
 }
+
+
