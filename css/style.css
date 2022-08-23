@@ -14,14 +14,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "roboto", sans-serif;
+    scroll-behavior: smooth;
 }
 body{
+    display: flex;
     margin: 0;
     width: 100%;
     min-height: 100%;
     overflow-x: hidden;
     background-color: --clr-background;
-    color : antiquewhite;
+    color: antiquewhite;
+    
+    
     
 }
 ul {
@@ -36,6 +40,14 @@ a{
   main{
     display:flex;
     flex-direction: column;
+    color: antiquewhite;
+    top: 100px;
+    position: absolute;
+    width: 80%;
+    left: 20%;
+    z-index: -1;
+    
+    
     
 
    
@@ -47,48 +59,12 @@ section{
     
     justify-content: center;
     border: 1px solid red;
+    padding: 40px;
     
 }
 
-/* =========== navbar perso ===============*/
-
-/* nav{
-    background-color: black;
-}
-.navbar{
-    display: flex;
-   
-}
-.nav-list{
-  display: flex;
-  justify-content: center;
-  padding: 0px 10px;
-  align-items: center;
-}
-/* au dessus de 800px */
-/* @media only screen and (min-width: 800px){
-    nav{
-        visibility: hidden;
-    }
-    .nav-list{
-        gap: 10%;
-    }
-}
-    
 
 
-  .nav-item{
-    padding: 1em;
-}
-
-.nav-item a{
-    color: antiquewhite;
-}
-.nav-item a:hover{
-    color : var(--clr-mainpurple)
-}
- 
- */ 
 
 /* ===== NAVBAR ===== */
 
@@ -98,14 +74,18 @@ section{
     visibility: hidden;
 }
  
-    /*  */
+  .lightMode{
+    border: white 1px solid;
+    padding: 40px;
+    background: antiquewhite;
+  }
 
    
  
     
 
 .navbar {
-    background-color: #000000;
+    background: #000000;
     overflow: hidden;   
     position: fixed;
     top: 0;
@@ -113,12 +93,16 @@ section{
     display:flex;
     justify-content: space-around;
     align-items: center;
+    
   }
   .navbar-links{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
   }
+
+ 
   
   .navbar a {
    
