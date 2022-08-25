@@ -20,7 +20,7 @@
 }
 
 body{
-    padding-top:100px;
+    
    }
 
 ul {
@@ -30,22 +30,17 @@ a{
     text-decoration: none;
   }
 main{
-    display:flex;
-    flex-direction: column;
-   
-    color: antiquewhite;
-    top: 100px;
+    display:block;
     
-    position: relative;
-    left: 15%;
-    transform: (-50% -50%);
+    color: antiquewhite; 
     
 }
 section{
-    width: 70%;   
-    justify-content: center;
+   width: 70%; 
+    position: sticky;
     border: 1px solid red;
-    padding: 40px;
+    margin: 3%;
+    padding: 1%;
 }
 section {
     display: block
