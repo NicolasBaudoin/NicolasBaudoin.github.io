@@ -18,15 +18,11 @@
     font-family: "roboto", sans-serif ;
     scroll-behavior: smooth;
 }
+
 body{
-    display: flex;
- 
-   
-    overflow-x: hidden;
-    background: white;
-   
-    color: antiquewhite;
-}
+    padding-top:100px;
+   }
+
 ul {
     list-style:none; 
 }
@@ -36,11 +32,13 @@ a{
 main{
     display:flex;
     flex-direction: column;
+   
     color: antiquewhite;
     top: 100px;
-    position: absolute;
-    width: 80%;
-    left: 20%;
+    
+    position: relative;
+    left: 15%;
+    transform: (-50% -50%);
     
 }
 section{
@@ -49,6 +47,8 @@ section{
     border: 1px solid red;
     padding: 40px;
 }
-
+section {
+    display: block
+}
 
 

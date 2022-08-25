@@ -15,48 +15,38 @@
 /*===== hide mobile menu for desktop =====  */
 
 
-.navbar {
-    background: var(--clr-navbar-back);
-    overflow: hidden;   
-    position: absolute;
-    top: 0vh;
-    width: 100%;
-    display:flex;
+#navbar {
+    background-color: rgb(0, 0, 0, 1); /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    display: flex;
     justify-content: space-around;
-    align-items: center;   
-    transition: 1s;
-}
-.navbar-links{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-}
-.navbar a {
-   
-    display: flex;
-    color: antiquewhite;
     text-align: center;
-    padding: 15px 18px;
+    overflow: hidden;
+    
+}
+  
+  /* Style the navbar links */
+  #navbar a  {
+    
+    color: white;
+    text-align: center;
+    padding: 15px;
     text-decoration: none;
-    font-size: 18px;
-}
+  }
+
   
-.navbar a:hover {
-    color: var(--clr-mainpurple);
-}
-  
-.container {
-    padding: 18px;
-    margin-top: 35px;
-    height: 2000px;
-}
-#logo{
-    position: left;
-}
-section {
-    display: block
-}
+  #navbar a:hover:not(#resume-link, #logo) {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+
+
+
 
 @media screen and (min-width: 768px){
     .menu_StyledMenu{
