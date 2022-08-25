@@ -15,15 +15,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "roboto", sans-serif var(--clr-font);
+    font-family: "roboto", sans-serif ;
     scroll-behavior: smooth;
 }
 body{
     display: flex;
-    margin: 0;
-    width: 100%;
-    min-height: 100%;
+ 
+   
     overflow-x: hidden;
+    background: white;
    
     color: antiquewhite;
 }
@@ -41,7 +41,7 @@ main{
     position: absolute;
     width: 80%;
     left: 20%;
-    z-index: -1;
+    
 }
 section{
     width: 70%;   
@@ -49,56 +49,6 @@ section{
     border: 1px solid red;
     padding: 40px;
 }
-/* ===== NAVBAR ===== */
-/*===== hide mobile menu for desktop =====  */
 
-
-.navbar {
-    background: var(--clr-navbar-back);
-    overflow: hidden;   
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;   
-}
-.navbar-links{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-}
-.navbar a {
-   
-    display: flex;
-    color: antiquewhite;
-    text-align: center;
-    padding: 15px 18px;
-    text-decoration: none;
-    font-size: 18px;
-}
-  
-.navbar a:hover {
-    color: var(--clr-mainpurple);
-}
-  
-.container {
-    padding: 18px;
-    margin-top: 35px;
-    height: 2000px;
-}
-#logo{
-    position: left;
-}
-section {
-    display: block
-}
-
-@media screen and (min-width: 768px){
-    .menu_StyledMenu{
-        visibility: hidden;
-    }
-}
 
 
