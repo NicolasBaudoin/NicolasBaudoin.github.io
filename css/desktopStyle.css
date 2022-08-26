@@ -1,0 +1,31 @@
+/* ====== VARIABLES ====== */
+:root{
+    /* logo's color */
+    --clr-mainpurple : rgb(168,0,210);
+
+    /* BACKGROUND COLOR */
+    --clr-background : rgb(42, 10, 47);
+    /* navbar color */
+    --clr-navbar-back : rgb(32,32,32); /* background color navbar*/
+    --clr-font : rgb(210, 21, 197);
+    --fzgz : rgb(42, 10, 47);
+}
+/* ===== GLOBAL STYLE ===== */
+
+
+
+@media screen and (min-width: 768px) {
+
+
+    main{
+        display: block;
+  
+  
+        
+    }
+    section{
+      
+        width: 70%;
+        left: 10px;
+    }
+  }

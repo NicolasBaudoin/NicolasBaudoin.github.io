@@ -6,13 +6,15 @@
 
 Hello ! i'm 23, i want to learn code to be a web developer front-end oriented.
 
-For this i'm actuallly learning html, css, JavaScript to create a good designed site and soon i'll explore React or vue.js.
+I'm actuallly learning html, css, JavaScript to create a good designed site and soon i'll explore React or vue.js.
 
 #### This project
 
 I want to create my site resume on my own to see where i struggle the most and to prove myself that i can learn things on my own.
 
-This resume will help me to show my skills to the entreprises where i want to do my work-and-study program in Nantes
+This resume will help me to show my skills to the entreprises where i want to do my work-and-study program in Nantes.
+
+I build this project with a mobile first method.
 
 ### Learning to write a good readme
 
