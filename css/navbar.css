@@ -13,34 +13,36 @@
 
 /* ===== NAVBAR ===== */
 /*===== hide mobile menu for desktop =====  */
-
-
-#navbar {
-    background-color: rgb(0, 0, 0, 1); /* Black background color */
-    position: fixed; /* Make it stick/fixed */
-    top: 0; /* Stay on top */
-    width: 100%; /* Full width */
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+nav{
     display: flex;
     justify-content: space-around;
-    text-align: center;
-    overflow: hidden;
-    
+    width: 100%;
+
 }
-  
+
+
+    
+   
+
+#navbar ul{
+    display: flex;
+    justify-content: center;
+}
   /* Style the navbar links */
   #navbar a  {
     
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 0px;
     text-decoration: none;
   }
 
   
   #navbar a:hover:not(#resume-link, #logo) {
-    background-color: #ddd;
-    color: black;
+    
+    color: var(--clr-mainpurple);
+   
+   
   }
 
 
@@ -48,8 +50,3 @@
 
 
 
-@media screen and (min-width: 768px){
-    .menu_StyledMenu{
-        visibility: hidden;
-    }
-}

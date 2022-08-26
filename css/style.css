@@ -17,24 +17,31 @@
     box-sizing: border-box;
     font-family: "roboto", sans-serif ;
     scroll-behavior: smooth;
+    
+}
+body{
+    background: var(--clr-background);
+    margin: 0px;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
 }
 
+@media screen and (min-width: 768px){
+    .menu_StyledMenu{
+        visibility: hidden;
+    }
 
-ul {
-    list-style:none; 
-}
-a{
-    text-decoration: none;
-  }
 main{
     display:block;
     
     color: antiquewhite; 
+    max-height: 99%;
     
 }
 section{
    width: 70%; 
-    position: sticky;
+    
     border: 1px solid red;
     margin: 3%;
     padding: 1%;
@@ -44,3 +51,11 @@ section {
 }
 
 
+ul {
+    list-style:none; 
+}
+a{
+    text-decoration: none;
+  }
+
+}
