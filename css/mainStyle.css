@@ -20,18 +20,35 @@ html{
 		scroll-behavior: auto;
 	}
 }
+
+/* ===== GLOBAL STYLE ===== */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
   }
   
-  body {
+body {
     font-family: "Josefin Sans", sans-serif;
     background: var(--clr-background);
-    color: antiquewhite;
-   
+    color: antiquewhite;   
   }
+  main{
+    display: block;
+    z-index: 0;
+    top: 100px;
+    position: relative; 
+    left: 7%;
+    margin:10%
+    
+}
+section {
+    border: 2px red solid;
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
   
   
   

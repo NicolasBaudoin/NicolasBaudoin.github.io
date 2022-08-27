@@ -9,7 +9,9 @@
     --clr-navbar-back : rgb(32,32,32); /* background color navbar*/
     --clr-font : rgb(210, 21, 197);
     --fzgz : rgb(42, 10, 47);
+    
 }
+
 
 /* ===== MOBILE and main style NAVBAR ===== */
 .navbar {
@@ -20,6 +22,7 @@
   .main-nav {
     list-style-type: none;
     display: none;
+    
   }
   
   .nav-links,
@@ -33,12 +36,18 @@
     margin: 15px auto;
   }
   
-  .logo {
+  .logo-mobile {
     display: inline-block;
     font-size: 22px;
     margin-top: 10px;
     margin-left: 20px;
+    position: fixed;
   }
+  .logo{
+    visibility: hidden;
+    
+  }
+  
   
   .navbar-toggle {
     position: fixed;
@@ -52,11 +61,20 @@
   
   .active {
     display: block;
+    height: 100%;
+    z-index: 3;
+    
+    background: var(--clr-background) blur(3deg);
+    
   }
+
 
 /* ===== NAVBAR DESKTOP===== */
 
 @media screen and (min-width: 768px) {
+    .logo-mobile{
+        visibility: hidden;
+    }
     .navbar {
       display: flex;
       justify-content: space-between;
@@ -67,7 +85,6 @@
       width: 100%;
       align-items: center;
       transition: 0.5s;
-      
       z-index: 2;
       background-color: var(--clr-background);
     }
@@ -89,6 +106,8 @@
   
     .logo {
       margin-top: 0;
+      position: absolute;
+      visibility: visible;
 
     }
   
@@ -99,6 +118,8 @@
    
     .nav-links:hover {
       color: var(--clr-mainpurple);
+     
+      
     }
     .shadow{
         box-shadow: 5px 5px 5px black;
