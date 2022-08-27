@@ -19,13 +19,18 @@
 
     main{
         display: block;
-  
-  
+        z-index: 1;
+        top: 100px;
+        position: absolute; 
+        left: 10%;
         
+    }
+    header{
+        z-index: 5;
     }
     section{
       
-        width: 70%;
+        width: 80%;
         left: 10px;
     }
   }

@@ -61,8 +61,15 @@
       display: flex;
       justify-content: space-between;
       padding-bottom: 0;
+      top: 0;
+      position: fixed;
       height: 70px;
+      width: 100%;
       align-items: center;
+      transition: 0.5s;
+      
+      z-index: 2;
+      background-color: var(--clr-background);
     }
   
     .main-nav {
@@ -93,4 +100,8 @@
     .nav-links:hover {
       color: var(--clr-mainpurple);
     }
+    .shadow{
+        box-shadow: 5px 5px 5px black;
+    }
+    
   }
