@@ -1,7 +1,7 @@
 // ===== DESKTOP NAVBAR =====
 var prevScrollpos = window.pageYOffset;
 var navbar = document.getElementById("navbar");
-var logo = document.getElementsByClassName("logo");
+
 window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
