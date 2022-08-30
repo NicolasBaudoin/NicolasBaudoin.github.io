@@ -36,10 +36,11 @@ body {
   main{
     display: block;
     z-index: 0;
-    top: 100px;
-    position: relative; 
-    left: 7%;
-    margin:10%
+    
+    position: relative;
+    left: 10%;
+    margin: 3%;
+    
     
 }
 section {
@@ -52,5 +53,8 @@ section {
   
   
   
-
-  
+@media screen and (max-width: 768px){
+  main{
+    top: -100px;
+  }
+}
