@@ -24,6 +24,7 @@
     list-style-type: none;
     visibility: hidden;
     
+    
   }
   
   .nav-links,
@@ -64,7 +65,7 @@
      visibility: visible;
      position: absolute;
      top: 20%;
-    ;
+    
      transform: (-50% -50%);
      z-index: 5;
      background: var(--clr-background);
@@ -107,7 +108,7 @@
       display: flex;
       margin-right: 30px;
       justify-content: flex-end;
-    
+    visibility: visible;
       
     }
   
