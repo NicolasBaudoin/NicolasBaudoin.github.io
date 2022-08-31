@@ -1,4 +1,4 @@
-# [My Resume](https://nicolasbaudoin.github.io/cv_baudoin_nicolas/ "Resume link")
+# [My Resume](https://nicolasbaudoin.github.io/ "Resume link")
 
 ---
 
