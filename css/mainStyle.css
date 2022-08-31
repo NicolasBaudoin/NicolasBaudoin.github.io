@@ -27,6 +27,7 @@ html{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+   
     
   }
   
@@ -34,15 +35,16 @@ body {
     font-family: "Josefin Sans", sans-serif;
     background: var(--clr-background);
     color: antiquewhite;   
-    overflow-x: hidden;
+    scroll-behavior: smooth;
   }
   main{
     display: block;
     z-index: 0;
-    
+    overflow: hidden;
     position: relative;
     left: 10%;
     margin: 3%;
+
     
     
 }
