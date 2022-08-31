@@ -21,12 +21,18 @@ let mainNav = document.getElementById("js-menu");
 let navBarToggle = document.getElementById("js-navbar-toggle");
 let navbarOut = document.getElementsByClassName("links");
 let closeBtn = document.getElementById("close-btn-js");
+let logo = document.getElementById("logo");
+let body = document.querySelector("body");
+let html = document.querySelector("*");
 
 // open mobile menu
 navBarToggle.addEventListener("click", function () {
   mainNav.classList.toggle("active");
   closeBtn.classList.toggle("active-btn");
   navBarToggle.style.visibility = "hidden";
+  logo.classList.toggle("logo-hidden");
+
+  html.style.overflow = "hidden";
 });
 
 //close mobile menu when click
@@ -34,4 +40,6 @@ closeBtn.addEventListener("click", function () {
   mainNav.classList.toggle("active");
   closeBtn.classList.toggle("active-btn");
   navBarToggle.style.visibility = "visible";
+  logo.classList.toggle("logo-hidden");
+  html.style.overflow = "auto";
 });
