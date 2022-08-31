@@ -32,6 +32,7 @@ body {
     font-family: "Josefin Sans", sans-serif;
     background: var(--clr-background);
     color: antiquewhite;   
+    overflow-x: hidden;
   }
   main{
     display: block;
