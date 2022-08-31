@@ -84,6 +84,7 @@
      backdrop-filter: blur(50%);
      font-size: 50px;
   }
+ 
   .logo-hidden{
     visibility: hidden;
   }
