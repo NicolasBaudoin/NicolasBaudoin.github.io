@@ -19,7 +19,19 @@ window.onscroll = function () {
 // ===== MOBILE NAVBAR =====
 let mainNav = document.getElementById("js-menu");
 let navBarToggle = document.getElementById("js-navbar-toggle");
+let navbarOut = document.getElementsByClassName("links");
+let closeBtn = document.getElementById("close-btn-js");
 
+// open mobile menu
 navBarToggle.addEventListener("click", function () {
   mainNav.classList.toggle("active");
+  closeBtn.classList.toggle("active-btn");
+  navBarToggle.style.visibility = "hidden";
+});
+
+//close mobile menu when click
+closeBtn.addEventListener("click", function () {
+  mainNav.classList.toggle("active");
+  closeBtn.classList.toggle("active-btn");
+  navBarToggle.style.visibility = "visible";
 });

@@ -48,7 +48,12 @@
     z-index: 6;
   }
 
-  
+  #link-btn{
+    visibility: hidden;
+  }
+  .active-btn{
+    visibility: visible;
+  }
   
   .navbar-toggle {
     position: fixed;
@@ -60,6 +65,7 @@
     z-index: 1;
   }
   
+  @media screen and (max-width:768px){
   .active  {
    
     display: grid;
@@ -76,7 +82,7 @@
      transition: 1s;
      background: rgb(75, 0, 70)  ;
      left: 10%;
-  }
+  }}
  
 
 
