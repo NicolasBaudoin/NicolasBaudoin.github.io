@@ -4,19 +4,27 @@
 
 ## Intro
 
-Hello ! i'm 23, i want to learn code to be a web developer front-end oriented.
+**[ENG]** Hello ! i'm 23, i want to learn code to be a web developer front-end oriented.
 
 I'm actuallly learning html, css, JavaScript to create a good designed site and soon i'll explore React or vue.js.
 
-#### This project
+**[FR]** Salut ! J'ai 23 ans, je veux apprendre le code pour devenir un developeur front-end de préférence, mais je suis ouvert aux autres domaines également.
 
-I want to create my site resume on my own to see where i struggle the most and to prove myself that i can learn things on my own.
+Je suis à la recherche d'une entreprise à nantes afin de débuter ma formation en alternance à l'ENI, j'apprend aujourd'hui par ems propres moyen le HTML, le CSS, le JavaScript et bientôt React.js ou Vue.js
+
+#### The project/Le projet
+
+**[ENG]** I want to create my site resume on my own to see where i struggle the most and to prove myself that i can learn things on my own.
 
 This resume will help me to show my skills to the entreprises where i want to do my work-and-study program in Nantes.
 
 I build this project with a mobile first method.
 
-### Learning to write a good readme
+**[FR]** J'ai décidé de créer mon cv/portfolio en mobile-first pour rencontrer des problemes basiques que je pourrai rencontrer dans la profession et pour me prouver que je suis capable d'apprendre par moi-même.
+
+Cela va m'aider à montrer les compétences que j'acquiert en autodidacte (avec beaucoup de chose à améliorer) mais également à comprendre les problemes que je rencontre sans systématiquement regarder des tutoriels.
+
+### [On Working] Learning to write a good readme
 
 **what, why, how**
 
