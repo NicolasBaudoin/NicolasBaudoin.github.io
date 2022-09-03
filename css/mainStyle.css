@@ -1,16 +1,20 @@
 /* ====== VARIABLES ====== */
-:root{
-    /* logo's color */
+:root{  
     --clr-mainpurple : rgb(168,0,210);
-
-    /* BACKGROUND COLOR */
-    --clr-background : rgb(255, 255, 255);
-    /* navbar color */
-    --clr-navbar-back : rgb(32,32,32); /* background color navbar*/
+    /* BACKGROUNDs*/
+    --clr-background : rgb(53, 0, 70);
+    --clr-navbar-back : rgb(53, 0, 70); /* background color navbar*/
+    /* FONTS colors */
     --clr-font : rgb(210, 21, 197);
+    --clr-h1 : rgb(219, 20, 255);
+    --clr-h2 : rgb(233, 108, 255);
+    --clr-h3 : rgb(255, 255, 255);  
+    /* FONTS SIZES */
+
+    --size-h2:25px;
+    --size-h3 : 18px;
+    --size-body-font:16px;
 }
-
-
 /* ===== Smooth Scroll === */
 html{
     scroll-behavior: smooth;
@@ -21,45 +25,42 @@ html{
 		scroll-behavior: auto;
 	}
 }
-
 /* ===== GLOBAL STYLE ===== */
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
-   
-    
-  }
-  
+    margin: 0;   
+}
 body {
     font-family: "Josefin Sans", sans-serif;
     background: var(--clr-background);
-    color: antiquewhite;   
+    ;   
     scroll-behavior: smooth;
-  }
-  main{
+}
+main{
     display: block;
     z-index: 0;
     overflow: hidden;
     position: relative;
     left: 10%;
-    margin: 3%;
-
-    
-    
+    margin: 3%;   
 }
 section {
-    border: 2px red solid;
+   
     width: 80%;
     margin-top: 5%;
-    margin-bottom: 5%;
-    
-}
-  
-  
-  
+    margin-bottom: 5%;  
+} 
 @media screen and (max-width: 768px){
   main{
     top: -100px;
   }
+}
+h2{
+    color: var(--clr-h1);
+    font-size: 50px;
+}
+
+p {
+    color: var(--clr-h3);
 }

@@ -1,15 +1,14 @@
 /* ====== VARIABLES ====== */
-:root{
-    /* logo's color */
-    --clr-mainpurple : rgb(204, 0, 255);
-
-    /* BACKGROUND COLOR */
-    --clr-background : rgb(42, 10, 47);
-    /* navbar color */
-    --clr-navbar-back : rgb(32,32,32); /* background color navbar*/
+:root{  
+    --clr-mainpurple : rgb(168,0,210);
+    /* BACKGROUNDs*/
+    --clr-background : rgb(53, 0, 70);
+    --clr-navbar-back : rgb(53, 0, 70); /* background color navbar*/
+    /* FONTS */
     --clr-font : rgb(210, 21, 197);
-    --fzgz : rgb(42, 10, 47);
-    
+    --clr-h1 : rgb(219, 20, 255);
+    --clr-h2 : rgb(233, 108, 255);
+    --clr-h3 : rgb(255, 255, 255);  
 }
 
 
