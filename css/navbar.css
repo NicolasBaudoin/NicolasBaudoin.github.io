@@ -52,9 +52,7 @@
   #link-btn{
     visibility: hidden;
   }
-  .active-btn{
-    visibility: visible;
-  }
+  
   
   .navbar-toggle {
     position: fixed;
@@ -103,10 +101,10 @@
    
     position: absolute;
     left: 10px;
-   
-
     }
-
+    #close-btn-js{
+        visibility: hidden;
+    }
     
     .navbar {
       display: flex;
