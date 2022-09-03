@@ -1,14 +1,20 @@
+@font-face {
+    font-family: 'robotoMono';
+    src: url('/fonts/RobotoMono-Italic-VariableFont_wght.ttf'), url('/fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 /* ====== VARIABLES ====== */
 :root{  
-    --clr-mainpurple : rgb(168,0,210);
+    --clr-mainpurple : rgb(204, 0, 255);
     /* BACKGROUNDs*/
-    --clr-background : rgb(53, 0, 70);
-    --clr-navbar-back : rgb(53, 0, 70); /* background color navbar*/
+    --clr-background : rgb(54,67,0,0);
+ 
     /* FONTS colors */
-    --clr-font : rgb(210, 21, 197);
-    --clr-h1 : rgb(219, 20, 255);
-    --clr-h2 : rgb(233, 108, 255);
-    --clr-h3 : rgb(255, 255, 255);  
+    --clr-font : rgb(136,146,176);
+    --clr-h1 : rgb(217, 0, 255);
+    --clr-h2 : #CCD6F6;
+    --clr-h3 : rgb(136,146,176);   
     /* FONTS SIZES */
 
     --size-h2:25px;
@@ -32,10 +38,13 @@ html{
     margin: 0;   
 }
 body {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "robotoMono", sans-serif;
     background: var(--clr-background);
-    ;   
+     
     scroll-behavior: smooth;
+    overflow: hidden;
+    font-family: robotoMono;
+    
 }
 main{
     display: block;
@@ -50,15 +59,26 @@ section {
     width: 80%;
     margin-top: 5%;
     margin-bottom: 5%;  
+
 } 
+#about-sec img{
+    border-radius: 20px;
+    
+}
 @media screen and (max-width: 768px){
   main{
     top: -100px;
   }
 }
-h2{
+h1{
     color: var(--clr-h1);
+}
+h2{
+    color: var(--clr-h2);
     font-size: 50px;
+}
+h3{
+    color: var(--clr-h3);
 }
 
 p {

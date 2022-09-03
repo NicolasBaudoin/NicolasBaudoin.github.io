@@ -1,14 +1,14 @@
 /* ====== VARIABLES ====== */
 :root{  
-    --clr-mainpurple : rgb(168,0,210);
+    --clr-mainpurple : #00e1ff;
     /* BACKGROUNDs*/
-    --clr-background : rgb(53, 0, 70);
-    --clr-navbar-back : rgb(53, 0, 70); /* background color navbar*/
+    --clr-background : #001440;
+    --clr-navbar-back : var(--clr-background); /* background color navbar*/
     /* FONTS */
-    --clr-font : rgb(210, 21, 197);
-    --clr-h1 : rgb(219, 20, 255);
-    --clr-h2 : rgb(233, 108, 255);
-    --clr-h3 : rgb(255, 255, 255);  
+    --clr-font : #04AEC4;
+    --clr-h1 : #6493FA;
+    --clr-h2 : #345AAD;
+    --clr-h3 : #afb8be;   
 }
 
 
@@ -16,6 +16,7 @@
 .navbar {
     font-size: 18px;   
     padding-bottom: 10px;
+   
   }
 
   
@@ -29,7 +30,7 @@
   .nav-links,
   .logo {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--clr-font);
   }
   
   .main-nav li {
@@ -57,7 +58,7 @@
     top: 10px;
     right: 20px;
     cursor: pointer;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--clr-font);
     font-size: 24px;
     z-index: 1;
   }
@@ -75,7 +76,7 @@
      width: 100%;
      height: 100vh;
      transition: 1s;
-     background: rgb(75, 0, 70)  ;
+     
      border-radius: 20px;
      backdrop-filter: blur(50%);
      font-size: 50px;
@@ -115,7 +116,7 @@
       align-items: center;
       transition: 0.5s;
       z-index: 2;
-      background-color: var(--clr-background);
+      background-color: var(--clr-navbar-back);
     }
   
     .main-nav {
@@ -147,7 +148,7 @@
       
     }
     .shadow{
-        box-shadow: 5px 5px 5px black;
+        box-shadow: 5px 5px 5px var(--clr-mainpurple);
     }
     
   }
