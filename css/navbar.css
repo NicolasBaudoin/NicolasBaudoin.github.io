@@ -49,9 +49,8 @@
 
   }
 
-  #link-btn{
-    visibility: hidden;
-  }
+  
+ 
   
   
   .navbar-toggle {
@@ -102,7 +101,7 @@
     position: absolute;
     left: 10px;
     }
-    #close-btn-js{
+    #link-btn{
         visibility: hidden;
     }
     
