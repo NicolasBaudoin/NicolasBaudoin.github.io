@@ -1,0 +1,104 @@
+/* =====BTN PART===== */
+
+.job-panel-container{
+    
+    width: max-content;
+    position: relative;
+    z-index: 3;
+    width: max-content;
+    padding: 0px;
+    margin: 0px;
+
+}
+.jobs-styledTabList{
+    position: relative;
+    z-index: 2;
+    width: max-content;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+   
+}
+.jobs-styledTabButton{
+    cursor: pointer;
+    border: 0px;
+    border-radius: 0px;
+    text-decoration: none;
+    position: relative;
+    transition: var(--transition);
+    display: flex;     
+    align-items: center;
+    width: max-content;
+    height: var(--tab-height);
+    padding: 0px 20px 2px;
+    border-top: 2px solid var(--lightest-navy);
+    background-color: transparent;
+    color: var(--slate);
+    font-family: var(--font-mono);
+    font-size: var(--fz-xs);
+}
+.jobs-styledTabButton:hover {
+    background-color: var(--light-navy);
+    width: max-content;
+}
+.selected-job{
+    background-color: var(--light-navy);
+    width: max-content;
+    color: #64ffda;
+    border-top:2px solid #64ffda;
+    
+}
+/* =====TEXT PART===== */
+.job-styledTabPanels{
+   
+    position: relative;
+    width: 100%;
+    margin-left: 20px;
+    
+}
+.job-styledTabText{
+    visibility: hidden;
+    width: 600px;
+    max-width:max-content;
+    height: auto;
+    padding: 10px 5px; 
+    position: relative;   
+}
+
+
+.active-panel{
+    position: absolute;
+    min-width: 340px;
+    max-width:max-content;
+    visibility: visible;
+    top: 0;
+
+}
+
+/* =====DESKTOP===== */
+
+@media (min-width: 700px){
+
+    /* =====BTN PART===== */
+    .job-panel-container{
+        min-height: 340px;
+        display: flex;
+    }
+    .jobs-styledTabButton{
+        border-left: 2px solid var(--lightest-navy);
+        border-top:none;
+    }
+    .jobs-styledTabList{
+        display: block;
+    }
+    .selected-job{
+        border-left: 2px solid #64ffda ;
+    }
+    /* =====TEXT PART===== */
+    .active-panel{
+      position: absolute;
+     
+       
+    }
+}
