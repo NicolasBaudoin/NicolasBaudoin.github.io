@@ -1,0 +1,31 @@
+@import "./constantes.css";
+
+/* =====Desktop===== */
+@media screen and (min-width: 768px){
+    .intro {
+        background-image: url(/images/intro-background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 500px;
+        position: relative;
+        top: -75px;
+        width: 100%;
+        display: grid;
+        place-content: CENTER;
+        overflow-y: hidden;
+     }
+    
+     .intro-container {
+        background: #ffffff;
+        opacity: 50%;
+        padding: 10px;
+        margin: 10px;
+        height: 150px;
+        width: 400px;
+    }
+    .intro-text{
+        opacity: 100%;
+        color: black;
+    }
+}
