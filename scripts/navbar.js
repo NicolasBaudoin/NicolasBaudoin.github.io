@@ -29,8 +29,6 @@ let logo = document.getElementById("logo");
 
 let html = document.querySelector("*");
 
-console.log(idsNavLink);
-
 // open mobile menu
 navBarToggle.addEventListener("click", function () {
   mainNav.classList.toggle("active");
@@ -56,6 +54,5 @@ for (var i = 0; i < idsNavLink.length; i++) {
     closeBtn.classList.toggle("active-btn");
     navBarToggle.style.visibility = "visible";
     logo.classList.toggle("logo-hidden");
-    html.style.overflow = "auto";
   });
 }
