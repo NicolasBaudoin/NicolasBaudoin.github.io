@@ -53,26 +53,29 @@
 .job-styledTabPanels{
    
     position: relative;
-    width: 100%;
+    width: 50%;
     margin-left: 20px;
+    display: flex;
     
 }
 .job-styledTabText{
+    
     visibility: hidden;
-    width: 600px;
-    max-width:max-content;
+    width:50%; 
     height: auto;
+   
     padding: 10px 5px; 
     position: relative;   
 }
 
 
 .active-panel{
+  
     position: absolute;
     min-width: 340px;
     max-width:max-content;
     visibility: visible;
-    top: 0;
+    top: 40px;
 
 }
 
@@ -97,8 +100,10 @@
     }
     /* =====TEXT PART===== */
     .active-panel{
-      position: absolute;
-     
-       
+      position: absolute; 
+    }
+    .job-styledTabText{
+        width: 600px;
+        top: 0;
     }
 }

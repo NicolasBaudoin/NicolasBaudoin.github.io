@@ -41,9 +41,9 @@
   
   .logo-mobile {
     display: inline-block;
-    font-size: 22px;
-    margin-top: 10px;
-    margin-left: 20px;
+
+   
+    margin-left: 10px;
     position: fixed;
     z-index: 6;
 
@@ -55,10 +55,11 @@
   
   .navbar-toggle {
     position: fixed;
-    top: 10px;
-    right: 20px;
+    display: inline-block;
+    top: 13px;
+    right: 15px;
     cursor: pointer;
-    color: var(--clr-font);
+    color: var(--clr-mainpurple);
     font-size: 24px;
     z-index: 1;
   }
@@ -94,17 +95,13 @@
 
 @media screen and (min-width: 768px) {
     .logo-mobile{
-        top: 0px;
-   
-  
-   
-    position: absolute;
-    left: 10px;
+        top: 0px; 
+        position: absolute;
+        left: 10px;
     }
     #link-btn{
         visibility: hidden;
-    }
-    
+    }   
     .navbar {
       display: flex;
       justify-content: flex-end;
@@ -120,10 +117,10 @@
     }
   
     .main-nav {
-      display: flex;
-      margin-right: 30px;
-      justify-content: flex-end;
-    visibility: visible;
+       display: flex;
+       margin-right: 30px;
+       justify-content: flex-end;
+       visibility: visible;
       
     }
   
