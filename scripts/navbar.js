@@ -26,7 +26,7 @@ let navBarToggle = document.getElementById("js-navbar-toggle");
 let navbarOut = document.getElementsByClassName("links");
 let closeBtn = document.getElementById("close-btn-js");
 let logo = document.getElementById("logo");
-let body = document.querySelector("body");
+
 let html = document.querySelector("*");
 
 console.log(idsNavLink);

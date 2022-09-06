@@ -1,21 +1,14 @@
 /* ====== VARIABLES ====== */
-:root{  
-    --clr-mainpurple : #00e1ff;
-    /* BACKGROUNDs*/
-    --clr-background : #001440;
-    --clr-navbar-back : var(--clr-background); /* background color navbar*/
-    /* FONTS */
-    --clr-font : #04AEC4;
-    --clr-h1 : #6493FA;
-    --clr-h2 : #345AAD;
-    --clr-h3 : #afb8be;   
-}
+@import "./constantes.css";
 
 
 /* ===== MOBILE and main style NAVBAR ===== */
 .navbar {
     font-size: 18px;   
     padding-bottom: 10px;
+    background: var(--clr-navbar-back);
+    z-index: 100;
+    opacity: 100%;
    
   }
 
@@ -41,7 +34,7 @@
   
   .logo-mobile {
     display: inline-block;
-
+   
    
     margin-left: 10px;
     position: fixed;
@@ -59,7 +52,7 @@
     top: 13px;
     right: 15px;
     cursor: pointer;
-    color: var(--clr-mainpurple);
+    color: var(--clr-mainBlue);
     font-size: 24px;
     z-index: 1;
   }
@@ -72,8 +65,8 @@
      visibility: visible;
      position: fixed;
      transform: (-50% -50%);
-     z-index: 1;
-     background: var(--clr-background);
+     z-index: 50;
+     background: var(--clr-navbar-back);
      width: 100%;
      height: 100vh;
      transition: 1s;
@@ -95,7 +88,7 @@
 
 @media screen and (min-width: 768px) {
     .logo-mobile{
-        top: 0px; 
+        display: inline;
         position: absolute;
         left: 10px;
     }
@@ -140,12 +133,12 @@
   
    
     .nav-links:hover {
-      color: var(--clr-mainpurple);
+      color: var(--clr-mainBlue);
      
       
     }
     .shadow{
-        box-shadow: 5px 5px 5px var(--clr-mainpurple);
+        box-shadow: 5px 5px 5px var(--clr-mainBlue);
     }
     
   }

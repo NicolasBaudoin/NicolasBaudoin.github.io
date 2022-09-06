@@ -1,13 +1,24 @@
+@import "./constantes.css";
+
 /* =====BTN PART===== */
+
+
+#experience-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .job-panel-container{
     
     width: max-content;
     position: relative;
     z-index: 3;
-    width: max-content;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin:0;
+   
+    
+    
 
 }
 .jobs-styledTabList{
@@ -61,9 +72,10 @@
 .job-styledTabText{
     
     visibility: hidden;
-    width:50%; 
+    max-width: max-content;
+    width: 340px;
     height: auto;
-   
+   padding: 10px 5px;
     padding: 10px 5px; 
     position: relative;   
 }
@@ -81,12 +93,14 @@
 
 /* =====DESKTOP===== */
 
-@media (min-width: 700px){
+@media (min-width: 768px){
 
     /* =====BTN PART===== */
     .job-panel-container{
         min-height: 340px;
         display: flex;
+        z-index: 0;
+        
     }
     .jobs-styledTabButton{
         border-left: 2px solid var(--lightest-navy);
@@ -103,7 +117,7 @@
       position: absolute; 
     }
     .job-styledTabText{
-        width: 600px;
+        width: max-content;
         top: 0;
     }
 }
