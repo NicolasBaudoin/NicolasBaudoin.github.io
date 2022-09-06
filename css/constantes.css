@@ -1,28 +1,6 @@
 :root{  
     /* inspired variables */
-    --lt-color-gray-100:  #f8f9fc;
-    --lt-color-gray-200:  #f1f3f9;
-    --lt-color-gray-300:  #dee3ed;
-    --lt-color-gray-400:  #c2c9d6;
-    --lt-color-gray-500:  #8f96a3;
-    --lt-color-gray-600:  #5e636e;
-    --lt-color-gray-700:  #2f3237;
-    --lt-color-gray-800:  #1d1e20;
-    --lt-color-gray-900:  #111213;
-    --dark-navy: #020c1b;
-    --navy: #0a192f;
-    --light-navy: #112240;
-    --lightest-navy: #233554;
-    --navy-shadow: rgba(2,12,27,0.7);
-    --dark-slate: #495670;
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
-    --white: #e6f1ff;
-    --green: #64ffda;
-    --green-tint: rgba(100,255,218,0.1);
-    --pink: #f57dff;
-    --blue: #57cbff;
+   
     --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
     --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     --fz-xxs: 12px;
@@ -39,13 +17,22 @@
     --tab-height: 42px;
     --tab-width: 120px;
     --transition: all 0.25s;
-    /* my variables */
-    --clr-mainBlue : rgb(0, 208, 255);
-    /* BACKGROUNDs*/
-   
+
+
+    /* navbar variables*/
+    --clr-nav-link-hover: rgb(255, 255, 255);
+    --clr-nav-link : rgb(0, 247, 255);
+    --clr-shadow-nav :rgb(0, 247, 255) ;
+    --clr-navbar-toggle-fa :rgb(0, 247, 255) ;
+
+
+    /* JOB SECTION VARIABLES */
+    --clr-selected-job-border : rgb(0, 255, 255);
+    --clr-selected-job: rgb(0, 46, 53);
+  
  
     /* FONTS colors */
-
+    
     /* FONTS SIZES */
 
     --size-h2:25px;
@@ -53,13 +40,16 @@
     --size-body-font:16px; 
     
       /* BACKGROUNDs*/
-      --clr-background : #0A192F;
-      --clr-navbar-back : #0A192F; /* background color navbar*/
+      --clr-background : #ffffff;
+      --clr-navbar-back : rgb(0, 0, 0);
       /* FONTS */
-      --clr-font : #04AEC4;
-      --clr-h1 : #6493FA;
-      --clr-h2 : #345AAD;
-      --clr-h3 : #afb8be;   
+      --clr-font : #000000;
+      --clr-h1 : #000000;
+      --clr-h2 : #000000;
+      --clr-h3 : #8e8e8e;   
+
+
+     
 }
 
 

@@ -9,6 +9,7 @@
     background: var(--clr-navbar-back);
     z-index: 100;
     opacity: 100%;
+
    
   }
 
@@ -23,7 +24,8 @@
   .nav-links,
   .logo {
     text-decoration: none;
-    color: var(--clr-font);
+    color: var(--clr-nav-link);
+    
   }
   
   .main-nav li {
@@ -52,7 +54,7 @@
     top: 13px;
     right: 15px;
     cursor: pointer;
-    color: var(--clr-mainBlue);
+    color: var(--clr-navbar-toggle-fa);
     font-size: 24px;
     z-index: 1;
   }
@@ -72,13 +74,17 @@
      transition: 1s;
      
      border-radius: 20px;
-     backdrop-filter: blur(50%);
+     
      font-size: 50px;
      
   }
  
   .logo-hidden{
     visibility: hidden;
+  }
+  .navbar{
+    height: 0;
+    background: none;
   }
 }
  
@@ -133,12 +139,11 @@
   
    
     .nav-links:hover {
-      color: var(--clr-mainBlue);
-     
-      
+      color: var(--clr-nav-link-hover);
+      border-left: 1px solid var(--clr-nav-link-hover) ;      
     }
     .shadow{
-        box-shadow: 5px 5px 5px var(--clr-mainBlue);
+        box-shadow: 5px 5px 5px var(--clr-shadow-nav);
     }
     
   }

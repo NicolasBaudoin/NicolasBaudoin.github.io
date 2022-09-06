@@ -11,11 +11,12 @@
 
 .job-panel-container{
     
-    width: max-content;
+    width: 600px;
     position: relative;
     z-index: 3;
     padding: 0;
     margin:0;
+    
    
     
     
@@ -43,21 +44,22 @@
     width: max-content;
     height: var(--tab-height);
     padding: 0px 20px 2px;
-    border-top: 2px solid var(--lightest-navy);
+    border-top: 2px solid rgb(108, 107, 111);
     background-color: transparent;
-    color: var(--slate);
+    color: black;
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
 }
 .jobs-styledTabButton:hover {
-    background-color: var(--light-navy);
+    background-color: black;
     width: max-content;
+    color: white;
 }
 .selected-job{
-    background-color: var(--light-navy);
+    background: var(--clr-selected-job);
     width: max-content;
-    color: #64ffda;
-    border-top:2px solid #64ffda;
+    color: var(--clr-selected-job-border);
+    border-top:2px solid var(--clr-selected-job-border);
     
 }
 /* =====TEXT PART===== */
@@ -110,7 +112,8 @@
         display: block;
     }
     .selected-job{
-        border-left: 2px solid #64ffda ;
+        border-left: 2px solid var(--clr-selected-job-border);
+        background: var(--clr-selected-job);
     }
     /* =====TEXT PART===== */
     .active-panel{
