@@ -1,6 +1,5 @@
 :root{  
     /* inspired variables */
-   
     --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
     --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     --fz-xxs: 12px;
@@ -17,39 +16,26 @@
     --tab-height: 35px;
     --tab-width: 120px;
     --transition: all 0.25s;
-
-
     /* navbar variables*/
     --clr-nav-link-hover: rgb(255, 255, 255);
     --clr-nav-link : rgb(0, 247, 255);
     --clr-shadow-nav :rgb(0, 247, 255) ;
     --clr-navbar-toggle-fa :rgb(0, 247, 255) ;
-
-
     /* JOB SECTION VARIABLES */
     --clr-selected-job-border : rgb(0, 255, 255);
     --clr-selected-job: rgb(0, 46, 53);
-  
- 
-    /* FONTS colors */
-    
     /* FONTS SIZES */
-
     --size-h2:25px;
     --size-h3 : 18px;
     --size-body-font:16px; 
-    
-      /* BACKGROUNDs*/
-      --clr-background : #ffffff;
-      --clr-navbar-back : rgb(0, 0, 0);
-      /* FONTS */
-      --clr-font : #000000;
-      --clr-h1 : #000000;
-      --clr-h2 : #000000;
-      --clr-h3 : #8e8e8e;   
-
-
-     
+    /* FONTS COLORS*/
+    --clr-font : #000000;
+    --clr-h1 : #000000;
+    --clr-h2 : #000000;
+    --clr-h3 : #8e8e8e;  
+    /* BACKGROUNDs*/
+    --clr-background : #ffffff;
+    --clr-navbar-back : rgb(0, 0, 0);  
 }
 
 

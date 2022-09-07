@@ -1,29 +1,16 @@
 @import "./constantes.css";
 
 /* =====BTN PART===== */
-
-
-
-
 #experience-sec h2 {
     size: 20px;
     color: rgb(62, 192, 201);
 }
-
-.job-panel-container{
-    
+.job-panel-container{ 
     width: 600px;
     position: relative;
     z-index: 3;
     padding: 0;
     margin:0;
-    
- 
-    
-   
-    
-    
-
 }
 .jobs-styledTabList{
     position: relative;
@@ -33,7 +20,6 @@
     margin: 0px;
     list-style: none;
     display: flex;
-   
 }
 .jobs-styledTabButton{
     cursor: pointer;
@@ -63,58 +49,44 @@
     background: var(--clr-selected-job);
     width: max-content;
     color: var(--clr-selected-job-border);
-    border-top:2px solid var(--clr-selected-job-border);
-    
+    border-top:2px solid var(--clr-selected-job-border);  
 }
 /* =====TEXT PART===== */
 .job-styledTabPanels{
-   
     position: relative;
     width: 50%;
     margin-left: 20px;
-    display: flex;
-    
+    display: flex; 
 }
-.job-styledTabText{
-    
+.job-styledTabText{  
     visibility: hidden;
     max-width: max-content;
     width: 340px;
     height: auto;
-   padding: 10px 5px;
-   
+    padding: 10px 5px; 
     position: relative;   
 }
-
-
 .active-panel{
-  
     position: absolute;
     min-width: 340px;
     max-width:max-content;
     visibility: visible;
     top: 40px;
-
 }
-
 /* =====DESKTOP===== */
-
 @media (min-width: 768px){
     #experience-sec {
         display : block;
         height: max-content;
-       
         width: 100%;
         background: #153145;
-        
         list-style:square;
     }
     /* =====BTN PART===== */
     .job-panel-container{
         min-height: 340px;
         display: flex;
-        z-index: 0;
-        
+        z-index: 0;  
     }
     .jobs-styledTabButton{
         border-left: 2px solid rgb(84, 84, 84);
@@ -136,7 +108,6 @@
         top: 0;
     }
 }
-
 /* MOBILE */
 @media (max-width:768px) {
     #experience-sec {
@@ -146,12 +117,9 @@
        width:max-content;
        max-width: 100vh;
         background: #153145;
-        
-        
         list-style:square;
     }
     #experience-sec h2{
         font-size: 40px;
-       
     }
 }
