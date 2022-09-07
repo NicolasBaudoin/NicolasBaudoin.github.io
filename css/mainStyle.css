@@ -32,10 +32,10 @@ body{
     min-height: 100%;
     overflow-x: hidden;
     background-image: url(/images/intro-background.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
     background-color: transparent;
     color: black;
     font-family: var(--font-sans);
@@ -44,24 +44,16 @@ body{
     scroll-behavior: smooth;
 }
 
-section {
-   
-    width: 80%;
-    margin-top: 0;
-    margin-bottom: 0;  
 
-} 
-#about-sec img{
-    border-radius: 20px;
-    
+
+
+
+main{
+    top: 100px;
+    position: relative;
+     overflow: hidden;
 }
 
-@media screen and (max-width: 768px){
-  main{
-   
-    margin: 20%;
-  }
-}
 h1{
     color: black;
 }
@@ -90,15 +82,9 @@ p {
     main{
         top: 100px;
         position: relative;
-        display: grid;
-        place-items: center;
+        overflow: hidden;
     }
-    #about-sec{
-        background:white;
-        position: relative;
-        height: max-content;
-        width: 100%;
-    }
+    
     
 
   }
