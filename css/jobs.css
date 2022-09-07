@@ -3,15 +3,7 @@
 /* =====BTN PART===== */
 
 
-#experience-sec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background: #153145;
-    
-    list-style:square;
-}
+
 
 #experience-sec h2 {
     size: 20px;
@@ -108,7 +100,15 @@
 /* =====DESKTOP===== */
 
 @media (min-width: 768px){
-
+    #experience-sec {
+        display : block;
+        height: max-content;
+       
+        width: 100%;
+        background: #153145;
+        
+        list-style:square;
+    }
     /* =====BTN PART===== */
     .job-panel-container{
         min-height: 340px;
@@ -134,5 +134,24 @@
     .job-styledTabText{
         width: max-content;
         top: 0;
+    }
+}
+
+/* MOBILE */
+@media (max-width:768px) {
+    #experience-sec {
+        display : block;
+       position: relative;
+       left: -21%;
+       width:max-content;
+       max-width: 100vh;
+        background: #153145;
+        
+        
+        list-style:square;
+    }
+    #experience-sec h2{
+        font-size: 40px;
+       
     }
 }

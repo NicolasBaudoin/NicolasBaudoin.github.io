@@ -1,6 +1,14 @@
 @import "./constantes.css";
 
 /* =====Desktop===== */
+
+.intro{
+    width: 100%;
+    
+}
+
+
+
 @media screen and (min-width: 768px){
     .intro {
        
@@ -9,7 +17,7 @@
         width: 100%;
         display: grid;
         place-content: CENTER;
-        overflow-y: hidden;
+        overflow: hidden;
         height: 90vh;
      }
     
