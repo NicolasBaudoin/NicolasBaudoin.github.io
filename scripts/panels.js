@@ -2,7 +2,6 @@ const btn0 = document.getElementById("tab-0");
 const btn1 = document.getElementById("tab-1");
 const btn2 = document.getElementById("tab-2");
 const btn3 = document.getElementById("tab-3");
-const btn4 = document.getElementById("tab-4");
 
 function toggleItem(elem) {
   for (var i = 0; i < elem.length; i++) {
@@ -28,19 +27,28 @@ toggleItem(document.querySelectorAll(".jobs-styledTabButton"));
 const panel0 = document.getElementById("panel-0");
 const panel1 = document.getElementById("panel-1");
 const panel2 = document.getElementById("panel-2");
+const panel3 = document.getElementById("panel-3");
 
 function openPanel() {
   if (btn0.classList.contains("selected-job")) {
     panel0.classList.add("active-panel");
     panel1.classList.remove("active-panel");
     panel2.classList.remove("active-panel");
+    panel3.classList.remove("active-panel");
   } else if (btn1.classList.contains("selected-job")) {
     panel1.classList.add("active-panel");
     panel0.classList.remove("active-panel");
     panel2.classList.remove("active-panel");
+    panel3.classList.remove("active-panel");
   } else if (btn2.classList.contains("selected-job")) {
     panel2.classList.add("active-panel");
     panel0.classList.remove("active-panel");
     panel1.classList.remove("active-panel");
+    panel3.classList.remove("active-panel");
+  } else if (btn3.classList.contains("selected-job")) {
+    panel3.classList.add("active-panel");
+    panel0.classList.remove("active-panel");
+    panel1.classList.remove("active-panel");
+    panel2.classList.remove("active-panel");
   }
 }

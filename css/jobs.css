@@ -3,7 +3,8 @@
 /* =====BTN PART===== */
 #experience-sec h2 {
     size: 20px;
-    color: rgb(62, 192, 201);
+    color: rgb(255, 255, 255);
+    
 }
 .job-panel-container{ 
     width: 600px;
@@ -76,17 +77,26 @@
 /* =====DESKTOP===== */
 @media (min-width: 768px){
     #experience-sec {
-        display : block;
-        height: max-content;
-        width: 100%;
+        position: relative;
+        display : flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 400px;
+        width: 95%;
+        border-radius: 20px;
         background: #153145;
-        list-style:square;
     }
     /* =====BTN PART===== */
     .job-panel-container{
+        position: relative;
         min-height: 340px;
         display: flex;
-        z-index: 0;  
+        z-index: 0; 
+        top: 15%;
+        left: 10%;
+        scale: 1.1;
+
+        
     }
     .jobs-styledTabButton{
         border-left: 2px solid rgb(84, 84, 84);
@@ -105,7 +115,7 @@
     }
     .job-styledTabText{
         width: max-content;
-        top: 0;
+      top:0;
     }
 }
 /* MOBILE */
