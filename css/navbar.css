@@ -20,7 +20,6 @@
 } 
 .main-nav li {
     text-align: center;
-    margin: 15px auto;
     
 }
   
@@ -97,24 +96,34 @@
     }
     .main-nav {
        display: flex;
-       margin-right: 30px;
-       justify-content: flex-end;
        visibility: visible;
     }
-    .main-nav li {
-      margin: 0;
+    
+
+    .nav-links{
+       margin: 10px;
+
     }
-    .nav-links {
-      margin-left: 40px;
-    }
+    .links::after{
+        content: '';
+        display: block;
+        width: 0;    /* Hide border initially */
+        height: 1px;
+        background: linear-gradient(#00f9ff, #ffffff);
+        transition: width 0.3s ease;
+     } 
+
     .navbar-toggle {
       display: none;
     }
-    .nav-links:hover {
-      color: var(--clr-nav-link-hover);
-      border-left: 1px solid var(--clr-nav-link-hover) ;      
-    }
+    .links:hover::after{
+        width: 90%;  /* Show border on hover */
+    
+     }
     .shadow{
         box-shadow: 5px 5px 5px var(--clr-shadow-nav);
     } 
+
+
+     
 }
