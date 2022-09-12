@@ -5,7 +5,7 @@
     width: 100%;
 }
 /* =====Desktop===== */
-@media screen and (min-width: 768px){
+
     .intro {      
         position: relative;
         top: -75px;
@@ -33,4 +33,4 @@
         font-size: 30px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }   
-}
+
