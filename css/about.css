@@ -14,12 +14,18 @@
     width: 95%;
     left: 5%;
     margin: 20px 0 ;
+    height: 400px
 }
 .text{
    width: 70%;
 }
+.text a{
+    position: relative;
+    top : 20px;
+}
 #about-sec h2{
     text-decoration: underline;
+
 }
 #about-sec img{
     border-radius: 50%;   
@@ -27,9 +33,7 @@
 /* =====Only Mobile===== */
 @media screen and (max-width: 768px) {
     #about-sec .text{
-        display: flex;
-        flex-direction: column;
-        align-items: center;    
+        display: block;         
     }   
 }
 /* =====DESKTOP===== */
@@ -37,5 +41,11 @@
     #about-sec{
         flex-direction: row-reverse;
         gap: 5%;
+        
     }
+    #about-sec h2{
+        position: absolute;
+        top: 0;
+    }
+    
 }
