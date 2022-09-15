@@ -12,6 +12,7 @@
     z-index: 3;
     padding: 0;
     margin:0;
+    left: 3%;
 }
 .jobs-styledTabList{
     position: relative;
@@ -61,7 +62,7 @@
 }
 .job-styledTabText{  
     visibility: hidden;
-    max-width: max-content;
+   
     width: 340px;
     height: auto;
     padding: 10px 5px; 
@@ -112,10 +113,12 @@
     /* =====TEXT PART===== */
     .active-panel{
       position: absolute; 
+      top: 0;
     }
     .job-styledTabText{
-        width: max-content;
-      top:0;
+        position: absolute;
+        width: 100%;
+        top:0;
     }
 }
 /* MOBILE */
@@ -123,13 +126,17 @@
     #experience-sec {
         display : block;
        position: relative;
-       left: -21%;
-       width:max-content;
-       max-width: 100vh;
+    
+        width:max-content;
+        max-width: 95%;
         background: #153145;
-        list-style:square;
+        list-style: none;
+        height: 500px;
+        
     }
     #experience-sec h2{
+        position: relative;
         font-size: 40px;
+        left: 4%;
     }
 }
