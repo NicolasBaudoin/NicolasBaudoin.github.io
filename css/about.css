@@ -14,7 +14,7 @@
     width: 95%;
     left: 5%;
     margin: 20px 0 ;
-    height: 400px
+    height: 500px;
 }
 .text{
    width: 70%;
@@ -22,6 +22,7 @@
 .text a{
     position: relative;
     top : 20px;
+    text-decoration: none;
 }
 #about-sec h2{
     text-decoration: underline;
