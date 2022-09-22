@@ -24,18 +24,18 @@
     top : 20px;
     text-decoration: none;
 }
-#about-sec h2{
-    text-decoration: underline;
 
-}
 #about-sec img{
     border-radius: 50%;   
 }
 /* =====Only Mobile===== */
 @media screen and (max-width: 768px) {
     #about-sec .text{
-        display: block;         
+        display: block;        
     }   
+    #about-sec {
+        height: max-content;
+    }
 }
 /* =====DESKTOP===== */
 @media screen and (min-width: 768px) {
