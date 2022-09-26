@@ -87,6 +87,9 @@
         border-radius: 20px;
         background: #153145;
     }
+    #experience-sec h2{
+        padding-left: 10px;
+    }
     /* =====BTN PART===== */
     .job-panel-container{
         position: relative;
@@ -113,7 +116,16 @@
     /* =====TEXT PART===== */
     .active-panel{
       position: absolute; 
-      top: 0;
+      top: 0; 
+      color: rgb(179, 178, 178);
+    }
+
+    .active-panel a {
+        text-decoration: none;
+    }
+    
+    .active-panel li{
+        color: rgb(179, 178, 178);
     }
     .job-styledTabText{
         position: absolute;
