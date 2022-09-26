@@ -30,9 +30,10 @@
     --size-body-font:16px; 
     /* FONTS COLORS*/
     --clr-font : #000000;
-    --clr-h1 : #000000;
+    --clr-h1 : #ffffff;
     --clr-h2 : #000000;
-    --clr-h3 : #8e8e8e;  
+    --clr-h3 : #ffffff;  
+    --clr-h4 : rgb(110, 110, 110);
     /* BACKGROUNDs*/
     --clr-background : #ffffff;
     --clr-navbar-back : rgb(0, 0, 0);  
