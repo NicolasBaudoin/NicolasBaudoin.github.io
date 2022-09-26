@@ -14,16 +14,12 @@
     width: 95%;
     left: 5%;
     margin: 20px 0 ;
-    height: 500px;
+    height: max-content;
 }
 .text{
    width: 70%;
 }
-.text a{
-    position: relative;
-    top : 20px;
-    text-decoration: none;
-}
+
 
 #about-sec img{
     border-radius: 50%;   
@@ -45,7 +41,7 @@
         
     }
     #about-sec h2{
-        position: absolute;
+        position: relative;
         top: 0;
     }
     
