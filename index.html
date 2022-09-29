@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/css/jobs.css">
     <link rel="stylesheet" href="/css/intro.css">
     <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/carrousel.css">
 </head>
 <body>
     <header>         
@@ -144,7 +145,32 @@
         <!-- projets personels -->
         <section id="projects-sec">
             <h2>Projects</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus fugit sint molestias ab porro tempora earum provident, quae qui fuga quia fugiat officia consectetur. Temporibus repudiandae eos perferendis qui? Porro molestias quasi velit dignissimos omnis corporis, veritatis quibusdam similique itaque. Nisi at numquam autem, est unde asperiores omnis quisquam exercitationem? Voluptatibus vel, iste, unde non harum vero, temporibus explicabo corrupti saepe tempore eveniet quasi quidem sed vitae qui itaque? Corporis voluptates libero non sapiente. Tenetur hic rerum quasi a quisquam.</p>
+            <div class='container'>
+                <ul class='carousel is-set'>
+                  <li class='carousel-seat'>
+                    <h2>1</h2>
+                  </li>
+                  <li class='carousel-seat'>
+                    <h2>2</h2>
+                  </li>
+                  <li class='carousel-seat'>
+                    <h2>3</h2>
+                  </li>
+                  <li class='carousel-seat'>
+                    <h2>4</h2>
+                  </li>
+                  <li class='carousel-seat'>
+                    <h2>5</h2>
+                  </li>
+                  <li class='carousel-seat is-ref'>
+                    <h2>6</h2>
+                  </li>
+                </ul>
+              </div>
+              <div class='controls'>
+                <button class='toggle' data-toggle='prev'>Prev</button>
+                <button class='toggle' data-toggle='next'>Next</button>
+              </div>
         </section>
         <!-- contact -->
         <section id="contact-sec">
@@ -159,8 +185,9 @@
 </footer>
 
  
-    <script src="/scripts/panels.js"></script>
-    <script src="/scripts/navbar.js"></script>
+<script src="/scripts/panels.js"></script>
+<script src="/scripts/navbar.js"></script>
+<script src="/scripts/carrousel.js"></script>
   
 </body>
 </html>
