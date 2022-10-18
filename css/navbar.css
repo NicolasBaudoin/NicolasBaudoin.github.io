@@ -32,11 +32,6 @@
     z-index: 6;
 
   }
-
-  
- 
-  
-  
   .navbar-toggle {
     position: fixed;
     display: inline-block;
@@ -98,8 +93,6 @@
        display: flex;
        visibility: visible;
     }
-    
-
     .nav-links{
        margin: 10px;
 
