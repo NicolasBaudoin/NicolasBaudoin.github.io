@@ -1,52 +1,50 @@
 # [Mon portfolio](https://nicolasbaudoin.github.io/ "Resume link")
 
+
 ---
 
 ## Introduction
 
-Bonjour ! J'ai 23 ans, je veux apprendre le code pour devenir un developeur front-end de préférence, mais je suis ouvert aux autres domaines également.
+Bonjour ! Je m'appelle Nicolas, j'ai 23 ans, je veux devenir un developpeur front-end puis full stack plus tard. Je pratique le HTML,CSS, JavaScript fréquemment. Je commence à découvrir react. 
 
-Je suis à la recherche d'une entreprise à nantes afin de débuter ma formation en alternance à l'ENI, j'apprend aujourd'hui par ems propres moyen le HTML, le CSS, le JavaScript et bientôt React.js ou Vue.js
+Afin de me former pour efficacement j'ai été accepté pour la formation de developpeur web et web mobile à l'ENI de Nantes. J'ai décidé de la faire en alternance afin d'aquérir de l'expérience professionelle et d'appliquer ce que j'apprends. Je cherche donc une entreprise à Nantes pour réaliser cette alternance. 
 
 ## Le projet
 
-J'ai décidé de créer mon cv/portfolio en mobile-first pour rencontrer des problemes basiques que je pourrai rencontrer dans la profession et pour me prouver que je suis capable d'apprendre par moi-même.
+Suivre des tutos, c'est bien, mais ça a ses limites. Ainsi, pour pratiquer le developpement web,  j'ai créé mon portfolio pour montrer ce dont je suis capable de faire par moi-même. Je ne suis pas designer, mais cette compétence s'améliorera au fil du temps.
 
-Cela va m'aider à montrer les compétences que j'acquiert en autodidacte (avec beaucoup de chose à améliorer) mais également à comprendre les problemes que je rencontre sans systématiquement regarder des tutoriels.
+j'ai commencé ce projet en faisant du mobile first. étant donné que c'est la première fois, j'ai fais beaucoup d'erreur et mon css n'est plus vraiment en mobile-first. Je compte y remédier prochainement. 
 
-<!-- ## [On Working] Learning to write a good readme
+## Les problèmes (à développer)
+ - Le design
+ - Les fonctionnalités
+ - le JavaScript
+ - le mobile-first
+ - les commits
 
-**what, why, how**
+## Ce que j'ai appris
 
-What was your motivation?
-
-Why did you build this project?
-
-What problem does it solve?
-
-What did you learn?
-
-What makes your project stand out?
-
-#### What problems ?
-
-#### What did i learn ? -->
-
+- **HTML :**
+    * Structurer le code
+    * Organiser le code
+    * utiliser des fonctions JavaScript dans les tags
+    * Lier des polices, intégrer des images.
+- **CSS :**
+    * Centrer une div
+    * Utiliser des breakpoints
+    * Séparer le css
+- **JavaScript :**
+    * Manipuler le DOM
+    * Faire des boucle si
+    * Agir sur l'html
+    * Agir sur le style des éléments
 ---
-
 ## Des projets d'entrainement
 
-#### [ColorFlipper](https://github.com/NicolasBaudoin/colorFlipper "ColorFlipper Repository")
-
-#### [Counter](https://github.com/NicolasBaudoin/Counter "Counter Repository")
-
-#### [Calculator](https://github.com/NicolasBaudoin/Calculator "Calculator Repository")
-
-#### [Find the number](https://github.com/NicolasBaudoin/Jeu-du-plus-ou-moins "Find The Number Repository")
+**[Repo des projets d'entrainement](https://github.com/NicolasBaudoin/training-projects "repository github du regroupement des projets")**
 
 ---
-
 ## Sources
 
-- **[Carrousel](https://codepen.io/Shockolate/pen/pRRyXG "Code source du carrousel pour les projets")**
+- **[Code du Slider des projets](https://www.w3schools.com/howto/howto_js_slideshow.asp "Code source du slider pour la section projets")**
 - **[Barre de navigation & section expérience](https://brittanychiang.com/ "Inspiration des fonctionnalités")**
