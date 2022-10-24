@@ -6,7 +6,7 @@
     font-size: 18px;   
     padding-bottom: 10px;
     background: var(--clr-navbar-back);
-    z-index: 100;
+    z-index: 10;
 
 }
 .main-nav {
@@ -21,8 +21,7 @@
     text-align: center; 
 }
   
-.nav-links,
-.logo {
+.nav-links{
     text-decoration: none;
     color: var(--clr-nav-link);  
 } 
@@ -43,34 +42,38 @@
     font-size: 24px;
     z-index: 1;
   }
-  /* =====NAVBAR ONLY MOBILE===== */
-  @media screen and (max-width:768px){
-  .active  {    /*opened menu for mobile*/
-     display: grid;
-     place-items: center;
-     visibility: visible;
-     position: fixed;
-     transform: (-50% -50%);
-     z-index: 50;
-     background: var(--clr-navbar-back);
-     width: 100%;
-     height: 100vh;
-     transition: 1s;
-     border-radius: 20px;
-     font-size: 50px;  
-  }
-  .logo-hidden{
-    display: none;
-  }
-  .navbar{
-    height: 0;
-    background: none;
-  }
-}
+  /* =====NAVBAR MOBILE===== */
+  .active-mobile-nav  {    /*opened menu for mobile*/
+    display: grid;
+    place-items: center;
+    visibility: visible;
+    position: fixed;
+    transform: (-50% -50%);
+    z-index: 50;
+    background: var(--clr-navbar-back);
+    width: 100%;
+    height: 100vh;
+    transition: 1s;
+    border-radius: 20px;
+    font-size: 50px;  
+ }
+ .logo-hidden{
+   display: none;
+ }
+ .navbar{
+   height: 0;
+   background: none;
+ }
 /* ===== NAVBAR DESKTOP===== */
 @media screen and (min-width: 768px) {
     .logo-mobile{
         display: none;
+    }
+    .logo{
+        display: block;
+        left: 10px;
+    
+        position: absolute;
     }
     #link-btn{
         visibility: hidden;

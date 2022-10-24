@@ -25,13 +25,13 @@ let mainNav = document.getElementById("js-menu");
 let navBarToggle = document.getElementById("js-navbar-toggle");
 let navbarOut = document.getElementsByClassName("links");
 let closeBtn = document.getElementById("close-btn-js");
-let logo = document.getElementById("logo");
+let logo = document.getElementById("logo-mobile");
 
 let html = document.querySelector("*");
 
 // open mobile menu
 navBarToggle.addEventListener("click", function () {
-  mainNav.classList.toggle("active");
+  mainNav.classList.toggle("active-mobile-nav");
   closeBtn.classList.toggle("active-btn");
   navBarToggle.style.visibility = "hidden";
   logo.classList.toggle("logo-hidden");
@@ -40,7 +40,7 @@ navBarToggle.addEventListener("click", function () {
 
 //close mobile menu when click
 closeBtn.addEventListener("click", function () {
-  mainNav.classList.toggle("active");
+  mainNav.classList.toggle("active-mobile-nav");
   closeBtn.classList.toggle("active-btn");
   navBarToggle.style.visibility = "visible";
   logo.classList.toggle("logo-hidden");
@@ -50,7 +50,7 @@ closeBtn.addEventListener("click", function () {
 //actions on a of mobile nav
 for (var i = 0; i < idsNavLink.length; i++) {
   idsNavLink[i].addEventListener("click", function () {
-    mainNav.classList.toggle("active");
+    mainNav.classList.toggle("active-mobile-nav");
     closeBtn.classList.toggle("active-btn");
     navBarToggle.style.visibility = "visible";
     logo.classList.toggle("logo-hidden");
