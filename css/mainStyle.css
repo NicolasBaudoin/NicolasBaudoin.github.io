@@ -26,9 +26,6 @@ body{
     width: 100%;
     min-height: 100%;
     overflow-x: hidden;
-    background-image: url(/images/intro-background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
     background-color: transparent;

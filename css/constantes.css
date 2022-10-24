@@ -17,10 +17,10 @@
     --tab-width: 120px;
     --transition: all 0.25s;
     /* navbar variables*/
-    --clr-nav-link-hover: rgb(255, 255, 255);
-    --clr-nav-link : rgb(0, 247, 255);
-    --clr-shadow-nav :rgb(0, 247, 255) ;
-    --clr-navbar-toggle-fa :rgb(0, 247, 255) ;
+    --clr-nav-link-hover: rgb(25, 0, 255);
+    --clr-nav-link : #1989CE;
+    --clr-shadow-nav :#020202 ;
+    --clr-navbar-toggle-fa :#1989CE ;
     /* JOB SECTION VARIABLES */
     --clr-selected-job-border : rgb(0, 255, 255);
     --clr-selected-job: rgb(0, 46, 53);
@@ -36,7 +36,7 @@
     --clr-h4 : rgb(110, 110, 110);
     /* BACKGROUNDs*/
     --clr-background : #ffffff;
-    --clr-navbar-back : rgb(0, 0, 0);  
+    --clr-navbar-back : rgb(254, 254, 254);  
 }
 
 

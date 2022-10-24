@@ -7,29 +7,30 @@
     padding-bottom: 10px;
     background: var(--clr-navbar-back);
     z-index: 100;
-    opacity: 100%; 
+
 }
 .main-nav {
     list-style-type: none;
     visibility: hidden; 
 }
+.logo{
+    display:none;
+}
+
+.main-nav li {
+    text-align: center; 
+}
+  
 .nav-links,
 .logo {
     text-decoration: none;
     color: var(--clr-nav-link);  
 } 
-.main-nav li {
-    text-align: center;
-    
-}
-  
-  .logo-mobile {
-    display: inline-block;
-   
-   
+.logo-mobile {
+    top: 10px;
     margin-left: 10px;
     position: fixed;
-    z-index: 6;
+    z-index: 5;
 
   }
   .navbar-toggle {
@@ -59,7 +60,7 @@
      font-size: 50px;  
   }
   .logo-hidden{
-    visibility: hidden;
+    display: none;
   }
   .navbar{
     height: 0;
@@ -69,9 +70,7 @@
 /* ===== NAVBAR DESKTOP===== */
 @media screen and (min-width: 768px) {
     .logo-mobile{
-        display: inline;
-        position: absolute;
-        left: 10px;
+        display: none;
     }
     #link-btn{
         visibility: hidden;
@@ -102,8 +101,9 @@
         display: block;
         width: 0;    /* Hide border initially */
         height: 1px;
-        background: linear-gradient(#00f9ff, #ffffff);
+        background: linear-gradient(#3300ff, #ffffff);
         transition: width 0.3s ease;
+        
      } 
 
     .navbar-toggle {
@@ -111,6 +111,7 @@
     }
     .links:hover::after{
         width: 90%;  /* Show border on hover */
+        font-weight: bold;
     
      }
     .shadow{
