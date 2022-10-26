@@ -28,7 +28,10 @@ body{
     overflow-x: hidden;
     background-attachment: fixed;
     height: 100vh;
+    background-image: url("/images/background2.png");
     background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 1;
     color: black;
     font-family: var(--font-sans);
     font-size: var(--fz-xl);
