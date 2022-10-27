@@ -8,7 +8,7 @@
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+
 
 
 }
@@ -16,6 +16,7 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
+
 }
 
 /* Next & previous buttons */
@@ -84,6 +85,7 @@
 .active-slide, .dot:hover {
   background-color: #717171;
 }
+
 
 /* Fading animation */
 .fade {
