@@ -24,7 +24,6 @@ html{
 body{
     margin: 0px;
     width: 100%;
-    min-height: 100%;
     overflow-x: hidden;
     background-image: url(/images/intro-background.jpg);
     background-size: cover;
