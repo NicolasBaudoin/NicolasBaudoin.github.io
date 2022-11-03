@@ -5,7 +5,27 @@
     size: 20px;
     color: rgb(255, 255, 255);
     
+    height: max-content;
+    
 }
+
+#experience-sec {
+    display : block;
+   position: relative;
+   border-radius: 20px;
+    width:max-content;
+    max-width: 95%;
+    background: #153145;
+    list-style: none;
+    height: 400px;
+    
+}
+#experience-sec h2{
+    position: relative;
+    font-size: 40px;
+    left: 4%;
+}
+
 .job-panel-container{ 
     width: 600px;
     position: relative;
@@ -84,7 +104,6 @@
         justify-content: center;
         height: 400px;
         width: 95%;
-        border-radius: 20px;
         background: #153145;
     }
     #experience-sec h2{
@@ -131,24 +150,5 @@
         position: absolute;
         width: 100%;
         top:0;
-    }
-}
-/* MOBILE */
-@media (max-width:768px) {
-    #experience-sec {
-        display : block;
-       position: relative;
-    
-        width:max-content;
-        max-width: 95%;
-        background: #153145;
-        list-style: none;
-        height: 400px;
-        
-    }
-    #experience-sec h2{
-        position: relative;
-        font-size: 40px;
-        left: 4%;
     }
 }
