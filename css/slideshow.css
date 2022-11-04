@@ -3,6 +3,19 @@
 * {
     box-sizing:border-box
 }
+#projects-sec{
+    width: 95%;
+    left: 4%;
+    height: 600px;
+    background: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 20px ;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -11,43 +24,54 @@
   margin: auto;
   display: flex;
   justify-items: center;
+  
 }
 
 
 /* Hide the images by default */
 .mySlides {
     display: none;
+    position: relative;
+    
+    border-radius: 20px;
+    width: 80%;
+    height: 600px;
+    left: 10%;
   }
 .mySlides a {
     position: relative;
-    left: 400px;
+    left: 15%;
+    top: 10%;
+    
 }
 
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  bottom: 5%;
+  bottom: 7%;
   width: auto;
-  margin-top: -22px;
-  padding: 16px;
+  padding: 20px;
   color: rgb(235, 7, 7);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 60px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
 @media screen and (min-width: 768px){
     .prev, .next{
-        bottom: 10%;
+        bottom: 15%;  
     }
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: 14%;
   border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 14%;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -61,9 +85,10 @@
   font-size: 15px;
   padding: 8px 12px;
   position: relative;
-  width: 100%;
-
-  
+  width: 100%;  
+}
+.slideshow-container h3{
+    color: black;
 }
 
 /* Number text (1/3 etc) */
@@ -81,10 +106,12 @@
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: rgb(143, 143, 143);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  position: absolute;
+  
 }
 
 .active-slide, .dot:hover {
