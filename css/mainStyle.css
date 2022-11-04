@@ -48,11 +48,9 @@ h1{
 h2{
     color: black;
     font-size: 50px;
-    text-transform: capitalize;
+   ;
 }
-h3{
-    color: var(--clr-h3);
-}
+
 
 .alinea {
     text-indent: 20px;
