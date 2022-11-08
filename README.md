@@ -35,9 +35,8 @@ j'ai commencé ce projet en faisant du mobile first. étant donné que c'est la 
     * Séparer le css
 - **JavaScript :**
     * Manipuler le DOM
-    * Faire des boucle si
-    * Agir sur l'html
-    * Agir sur le style des éléments
+    * Utiliser des fonctions
+    * Intéragir avec le style
 ---
 ## Des projets d'entrainement
 
