@@ -1,5 +1,4 @@
 /* reset */
-
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -29,4 +28,10 @@ a{
 /* style */
 body{
     background: #EBF2FA;
+}
+header{
+    background: white;
+}
+ul{
+    display: flex;
 }
