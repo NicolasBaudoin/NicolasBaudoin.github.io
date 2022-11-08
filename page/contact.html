@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
     <header>
@@ -16,5 +17,20 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <div class="form-container">
+            <form onsubmit="sendEmail(); reset()">
+                <label for="name" class="label">Nom et prénom</label>
+                <input type="text" id="name" placeholder = "Nom et prénom">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="adresse email">
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </main>
+    <script src="/script/form.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
 </body>
 </html>
