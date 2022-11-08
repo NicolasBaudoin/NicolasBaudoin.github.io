@@ -17,7 +17,7 @@
     max-width: 95%;
     background: #153145;
     list-style: none;
-    height: 400px;
+    height: 450px;
     
 }
 
@@ -86,11 +86,12 @@
 }
 .job-styledTabText{  
     visibility: hidden;
-   
+    color: rgb(179, 178, 178);
     width: 340px;
     height: auto;
     padding: 10px 5px; 
     position: relative;   
+    list-style: circle;
 }
 .active-panel{
     position: absolute;
