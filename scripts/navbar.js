@@ -7,11 +7,13 @@ window.onscroll = function () {
   if (prevScrollpos > currentScrollPos) {
     navbar.style.top = "0";
     navbar.classList.add("shadow");
+    navbar.style.background="black"
   } else {
-    navbar.style.top = "-100px";
+    navbar.style.top = "-100px"; 
   }
   if (currentScrollPos == "0") {
     navbar.classList.remove("shadow");
+    navbar.style.background="rgb(255,255,255,0)" 
   }
   prevScrollpos = currentScrollPos;
 };
