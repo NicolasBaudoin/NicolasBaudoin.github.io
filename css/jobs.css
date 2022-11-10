@@ -5,7 +5,31 @@
     size: 20px;
     color: rgb(255, 255, 255);
     
+    height: max-content;
+    
 }
+
+#experience-sec {
+    display : block;
+   position: relative;
+   border-radius: 20px;
+    width:max-content;
+    max-width: 95%;
+    background: #153145;
+    list-style: none;
+    height: 450px;
+    
+}
+
+#experience-sec h2{
+    position: relative;
+    font-size: 40px;
+    left: 4%;
+}
+#experience-sec h3{
+    color: white;
+}
+
 .job-panel-container{ 
     width: 600px;
     position: relative;
@@ -35,9 +59,9 @@
     width: max-content;
     height: var(--tab-height);
     padding: 0px 20px 2px;
-    border-top: 2px solid rgb(108, 107, 111);
+    border-top: 2px solid rgb(180, 180, 180);
     background-color: transparent;
-    color: rgb(128, 128, 128);
+    color: rgb(255, 255, 255);
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
     font-weight: bold;
@@ -62,11 +86,12 @@
 }
 .job-styledTabText{  
     visibility: hidden;
-   
+    color: rgb(179, 178, 178);
     width: 340px;
     height: auto;
     padding: 10px 5px; 
     position: relative;   
+    list-style: circle;
 }
 .active-panel{
     position: absolute;
@@ -84,7 +109,6 @@
         justify-content: center;
         height: 400px;
         width: 95%;
-        border-radius: 20px;
         background: #153145;
     }
     #experience-sec h2{
@@ -131,24 +155,5 @@
         position: absolute;
         width: 100%;
         top:0;
-    }
-}
-/* MOBILE */
-@media (max-width:768px) {
-    #experience-sec {
-        display : block;
-       position: relative;
-    
-        width:max-content;
-        max-width: 95%;
-        background: #153145;
-        list-style: none;
-        height: 400px;
-        
-    }
-    #experience-sec h2{
-        position: relative;
-        font-size: 40px;
-        left: 4%;
     }
 }
