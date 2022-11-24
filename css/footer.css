@@ -93,3 +93,18 @@ footer{
         0 0 50px #4e00c2;
     }
 }
+
+  /* Media queries */
+  @media (min-width: 768px) {
+    .Grid__Container {
+      grid-template-columns: repeat(4, 1fr);
+     
+    }
+    .Bottom_Column {
+      grid-column: span 2;
+    }
+    .Bottom_Column__Content_Container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
