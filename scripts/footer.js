@@ -1,0 +1,1 @@
+const btnCv = document.getElementById("buttonCvJs")
