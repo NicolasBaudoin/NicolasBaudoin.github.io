@@ -6,34 +6,34 @@
 }
 /* =====Desktop===== */
 
-    .intro {      
-        position: relative;
-        top: -75px;
-        width: 100%;
-        display: grid;
-        place-content: CENTER;
-        overflow: hidden;
-        height: 90vh;
+.intro {      
+    position: relative;
+    top: -75px;
+    width: 100%;
+    display: grid;
+    place-content: CENTER;
+    overflow: hidden;
+    height: 90vh;
     z-index: 1s;
-     }
-    .intro-container {
+ }
+.intro-container {
     background: rgba(255, 255, 255, 0.9) ;
-        border-radius: 20px;
-        padding: 10px;
-        margin: 10px;
-        height: 150px;
-        width: 400px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
-    .intro-text p{
-        font: bold;
-        font-size: 30px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }   
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    height: 150px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.intro-text p{
+    font: bold;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
 .intro img {
     width: 150px;
     height: 200px;
