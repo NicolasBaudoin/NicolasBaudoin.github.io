@@ -38,6 +38,7 @@
     margin:0;
     left: 3%;
 }
+
 .jobs-styledTabList{
     position: relative;
     z-index: 2;
@@ -99,6 +100,7 @@
     max-width:max-content;
     visibility: visible;
     top: 40px;
+
 }
 /* =====DESKTOP===== */
 @media (min-width: 768px){
@@ -122,9 +124,7 @@
         z-index: 0; 
         top: 15%;
         left: 10%;
-        scale: 1.1;
-
-        
+        scale: 1.1;   
     }
     .jobs-styledTabButton{
         border-left: 2px solid rgb(84, 84, 84);
@@ -140,7 +140,7 @@
     /* =====TEXT PART===== */
     .active-panel{
       position: absolute; 
-      top: 0; 
+      top: 0;
       color: rgb(179, 178, 178);
     }
 
@@ -149,11 +149,14 @@
     }
     
     .active-panel li{
-        color: rgb(179, 178, 178);
+        color: rgb(255, 255, 255);
     }
     .job-styledTabText{
         position: absolute;
         width: 100%;
-        top:0;
+        top:-20px;
+        padding-left: 20px;
+        border: black solid 1px;
+        border-radius: 20px;
     }
 }
