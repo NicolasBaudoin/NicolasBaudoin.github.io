@@ -97,8 +97,15 @@
     color: black;
     
 }
-
-
+.description-proj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    background: rgba(69, 69, 69, 0.614);
+    color: white;
+}
 /* The dots/bullets/indicators */
 .dot-container{
     position: absolute;
