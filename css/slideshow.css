@@ -18,8 +18,9 @@
 }
 @media screen and (min-width: 768px){
     #projects-sec{
-        height: 600px;
+        height: fit-content;
     }
+   
 }
 
 /* Slideshow container */
@@ -38,42 +39,42 @@
     display: none;
     position: relative;
     border-radius: 20px;
-    width: 80%;
+    width: 70%;
     height: max-content;
-    left: 10%;
+    left: 15%;
 
+    background: #00000016;
   }
 .mySlides a {
     position: relative;
     left: 15%;
     top: 10%;
-    
+}
+.mySlides img{
+    width: 70%;
+
 }
 
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  bottom: 7%;
-  width: auto;
-  padding: 20px;
+  padding: 10px;
   color: rgb(235, 7, 7);
   font-weight: bold;
   font-size: 60px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
   user-select: none;
 }
 @media screen and (min-width: 768px){
     .prev, .next{
-        bottom: 35%;  
+        top: 150px;
     }
 }
 
 /* Position the "next button" to the right */
 .next {
     right: 14%;
-    border-radius: 3px 0 0 3px;
 }
 .prev {
     left: 14%;
@@ -90,12 +91,9 @@
     font-size: 15px;
     display: flex;
     justify-content: center;
-    
-
 }
 .slideshow-container h3{
-    color: black;
-    
+    color: black;   
 }
 .description-proj{
     display: flex;
@@ -108,8 +106,9 @@
 }
 /* The dots/bullets/indicators */
 .dot-container{
-    position: absolute;
+    position: relative;
     bottom: 5%;
+    padding: 10px;
 }
 .dot {
   cursor: pointer;
@@ -140,3 +139,4 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
