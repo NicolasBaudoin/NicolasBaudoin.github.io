@@ -4,9 +4,7 @@
 #experience-sec h2 {
     size: 20px;
     color: rgb(255, 255, 255);
-    
-    height: max-content;
-    
+    height: max-content;  
 }
 
 #experience-sec {
@@ -18,7 +16,6 @@
     background: #153145;
     list-style: none;
     height: 450px;
-    
 }
 
 #experience-sec h2{
@@ -100,7 +97,6 @@
     max-width:max-content;
     visibility: visible;
     top: 40px;
-
 }
 /* =====DESKTOP===== */
 @media (min-width: 768px){

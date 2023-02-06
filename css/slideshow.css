@@ -1,8 +1,5 @@
 @import "/css/constantes.css";
 
-* {
-    box-sizing:border-box
-}
 #projects-sec{
     width: 95%;
     left: 4%;
@@ -28,10 +25,7 @@
   height: 400px;
   position: relative;
   margin: auto;
-
-  
 }
-
 
 /* Hide the images by default */
 .mySlides {
@@ -41,13 +35,11 @@
     width: 80%;
     height: max-content;
     left: 10%;
-
   }
 .mySlides a {
     position: relative;
     left: 15%;
-    top: 10%;
-    
+    top: 10%; 
 }
 
 /* Next & previous buttons */
@@ -90,15 +82,10 @@
     font-size: 15px;
     display: flex;
     justify-content: center;
-    
-
 }
 .slideshow-container h3{
-    color: black;
-    
+    color: black; 
 }
-
-
 /* The dots/bullets/indicators */
 .dot-container{
     position: absolute;
@@ -117,16 +104,12 @@
 }
 
 .active-slide, .dot:hover {
-  background-color: #717171;
-  
+  background-color: #717171; 
 }
-
-
 /* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
-
 }
 
 @keyframes fade {
