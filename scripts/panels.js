@@ -17,11 +17,10 @@ function toggleItem(elem) {
           openPanel();
         }
       }
-
       e.preventDefault();
     });
   }
-}
+};
 toggleItem(document.querySelectorAll(".jobs-styledTabButton"));
 
 const panel0 = document.getElementById("panel-0");
@@ -51,4 +50,4 @@ function openPanel() {
     panel1.classList.remove("active-panel");
     panel2.classList.remove("active-panel");
   }
-}
+};

@@ -1,8 +1,5 @@
 @import "/css/constantes.css";
 
-* {
-    box-sizing:border-box
-}
 #projects-sec{
     width: 95%;
     left: 4%;
@@ -29,10 +26,7 @@
   height: 400px;
   position: relative;
   margin: auto;
-
-  
 }
-
 
 /* Hide the images by default */
 .mySlides {
@@ -42,17 +36,12 @@
     width: 70%;
     height: max-content;
     left: 15%;
-
     background: #00000016;
   }
 .mySlides a {
     position: relative;
     left: 15%;
-    top: 10%;
-}
-.mySlides img{
-    width: 70%;
-
+    top: 10%; 
 }
 
 /* Next & previous buttons */
@@ -93,16 +82,7 @@
     justify-content: center;
 }
 .slideshow-container h3{
-    color: black;   
-}
-.description-proj{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
-    background: rgba(69, 69, 69, 0.614);
-    color: white;
+    color: black; 
 }
 /* The dots/bullets/indicators */
 .dot-container{
@@ -123,16 +103,12 @@
 }
 
 .active-slide, .dot:hover {
-  background-color: #717171;
-  
+  background-color: #717171; 
 }
-
-
 /* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
-
 }
 
 @keyframes fade {

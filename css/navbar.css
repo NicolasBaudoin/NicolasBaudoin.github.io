@@ -44,7 +44,7 @@
   }
   /* =====NAVBAR ONLY MOBILE===== */
   @media screen and (max-width:768px){
-  .active  {    /*opened menu for mobile*/
+  .active  {    /*open menu for mobile*/
      display: grid;
      place-items: center;
      visibility: visible;
@@ -115,8 +115,5 @@
      }
     .shadow{
         box-shadow: 5px 5px 5px var(--clr-shadow-nav);
-    } 
-
-
-     
+    }   
 }
